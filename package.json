@@ -1,0 +1,11 @@
+{
+  "name": "local-service-dashboard",
+  "version": "1.0.0",
+  "private": true,
+  "workspaces": ["packages/*"],
+  "scripts": {
+    "dev": "bun run --filter './packages/backend' dev & bun run --filter './packages/frontend' dev",
+    "build": "bun run --filter './packages/frontend' build",
+    "start": "bun run --filter './packages/backend' start"
+  }
+}
