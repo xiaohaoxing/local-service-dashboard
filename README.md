@@ -1,6 +1,10 @@
 # Local Service Dashboard
 
-A local navigation hub for all your running services. Scans open ports, identifies what's running (processes, Docker containers, HTTP fingerprinting), and optionally enriches results with Claude AI. Exposes an MCP server so AI assistants can discover and manage your local environment.
+A local navigation hub for all your running services.
+
+![Scanning in progress](docs/screenshot-scanning.png)
+
+![Scan results with AI enrichment](docs/screenshot-results.png) Scans open ports, identifies what's running (processes, Docker containers, HTTP fingerprinting), and optionally enriches results with Claude AI. Exposes an MCP server so AI assistants can discover and manage your local environment.
 
 ## Features
 
